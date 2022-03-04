@@ -1,0 +1,58 @@
+
+body {
+    background-color: #7FBFDF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+    height: calc(100vh - 120px);
+}
+
+p {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.city {
+    font-size: 100px;
+    color: #FFFFFF;
+}
+
+.temperature {
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.temperature p:nth-child(1) {
+    font-size: 50px;
+    padding-right: 10px;
+}
+
+.temperature p:nth-child(2) {
+    font-size: 20px;
+    color: lightslategray;
+}
+
+.weather {
+    font-size: 30px;
+}
+
+.image {
+    font-size: 50px;
+}
+
+.humidity {
+    font-size: 30px;
+}
+
+.wind {
+    font-size: 30px;
+}
+
+.rain {
+    font-size: 30px;
+}
